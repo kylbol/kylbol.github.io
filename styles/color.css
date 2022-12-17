@@ -18,6 +18,14 @@ header, footer {
     background: rgb(0, 0, 0);
 }
 
+/*Changes in Flexbox element background colors*/
+nav li {
+    background-color: rgb(255,100,0);
+}
+.current-link {
+    background-color: rgb(200,50,0);
+}
+
 /*loose text colors*/
 a:active {
     color: rgb(255,50,50);
