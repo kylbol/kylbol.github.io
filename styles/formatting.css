@@ -10,7 +10,7 @@ header h1 {
 nav ul {
   display: flex;
   flex-direction: row;
-  flex-warp: nowrap;
+  flex-wrap: nowrap;
   list-style: none;
   padding: 0%;
   justify-content: space-evenly;
