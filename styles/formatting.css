@@ -1,12 +1,27 @@
+/**
+ * @formatting.css
+ * details the formatting css rules in the website "World of Chess"
+ */
+
 * {
   margin: 0%;
 }
+
+/*The rules for header text displays*/
 header {
   text-align: center;
 }
 header h1 {
   font-size: 6em;
 }
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*All of the flex rules*/
 nav ul {
   display: flex;
   flex-direction: row;
@@ -24,6 +39,8 @@ nav li {
   flex-shrink: 0.5;
   flex-grow: 2;
 }
+
+/*All of the grid css rules*/
 main {
   display: grid;
   grid-template-columns: repeat(4,1fr);
@@ -40,6 +57,8 @@ main {
 .region-three {
   grid-area: c;
 }
+
+/*Odd text formatting*/
 main h1, h1 ~ h2 {
   margin: 1em;
 }
@@ -49,12 +68,6 @@ h1 + p {
 .container {
   position: relative;
   text-align: center;
-}
-.centered {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 #navigation {
   text-align: center;
