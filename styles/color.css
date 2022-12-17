@@ -1,33 +1,32 @@
 body {
     background: rgb(255, 230, 150);
 }
-
 header {
     background: rgb(255, 200, 100);
     color: white;
 }
-
 header h1 {
     
 }
-
 footer {
     background: rgb(255, 200, 100);
     color: white;
 }
-
 .container {
     color: white;
 }
-
 .centered {
 
 }
-
 #navigation {
     background-color: rgb(250, 180, 80);
 }
-
 .button {
     background: rgb(0, 0, 0);
+}
+a:active {
+    color: rgb(255,50,50);
+}
+a:visited {
+    color: rgb(150,50,50);
 }
