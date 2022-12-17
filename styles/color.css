@@ -5,12 +5,6 @@ header, footer {
     background: rgb(255, 200, 100);
     color: white;
 }
-.container {
-    color: white;
-}
-.centered {
-
-}
 #navigation {
     background-color: rgb(250, 180, 80);
 }
@@ -22,6 +16,9 @@ a:active {
 }
 a:visited {
     color: rgb(150,50,50);
+}
+h2 ~ p {
+    color: rgb(100,100,0);
 }
 footer p {
     color: rgb(200,200,200);
