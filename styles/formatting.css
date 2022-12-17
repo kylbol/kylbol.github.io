@@ -7,11 +7,12 @@ header {
 header h1 {
   font-size: 6em;
 }
+
 main {
   display: grid;
-  grid-template-coloumns: repeat(4,1fr);
-  grid-template-rows: repeat(3,1fr);
-  grid-template-areas: "a a b b" "a a b b" "c c c c";
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-template-areas: "a a b b" "c c c c";
   margin: 1em; 
 }
 .region-one {
