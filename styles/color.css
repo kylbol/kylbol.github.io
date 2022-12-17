@@ -1,3 +1,9 @@
+/**
+ * @color
+ * all the color rules in the website.
+ */
+
+/*background colors*/
 body {
     background: rgb(255, 230, 150);
 }
@@ -11,6 +17,8 @@ header, footer {
 .button {
     background: rgb(0, 0, 0);
 }
+
+/*loose text colors*/
 a:active {
     color: rgb(255,50,50);
 }
