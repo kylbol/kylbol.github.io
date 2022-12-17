@@ -7,7 +7,12 @@ header {
 header h1 {
   font-size: 6em;
 }
-
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-basis: auto;
+  flex-warp: nowrap;
+}
 main {
   display: grid;
   grid-template-columns: repeat(4,1fr);
