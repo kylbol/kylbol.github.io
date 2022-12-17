@@ -7,11 +7,19 @@ header {
 header h1 {
   font-size: 6em;
 }
-nav {
+nav ul {
   display: flex;
   flex-direction: row;
   flex-basis: auto;
   flex-warp: nowrap;
+  list-style: none;
+  flex-shrink: 1;
+  flex-grow: 1;
+  padding: 0%;
+}
+.currentLink {
+  flex-shrink: 0.5;
+  flex-grow: 2;
 }
 main {
   display: grid;
