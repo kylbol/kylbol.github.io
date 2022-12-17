@@ -23,3 +23,9 @@ a:active {
 a:visited {
     color: rgb(150,50,50);
 }
+footer p {
+    color: rgb(200,200,200);
+}
+br + small {
+    color: rgb(255,200,200);
+}
