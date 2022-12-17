@@ -13,6 +13,9 @@ main {
 main h1, h1 ~ h2 {
   margin: 1em;
 }
+h1 + p {
+  font-size: 0.5em;
+}
 .container {
   position: relative;
   text-align: center;
