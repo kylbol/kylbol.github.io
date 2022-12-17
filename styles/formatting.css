@@ -20,7 +20,7 @@ nav li {
   flex-shrink: 1;
   flex-grow: 1;
 }
-.currentLink {
+.current-link {
   flex-shrink: 0.5;
   flex-grow: 2;
 }
