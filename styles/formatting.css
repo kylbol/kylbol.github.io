@@ -23,3 +23,11 @@ footer {
 #navigation {
   text-align: center;
 }
+.button {
+  width: 3em;
+  height: 3em;
+}
+img {
+  width: 2em;
+  height: 2em;
+}
