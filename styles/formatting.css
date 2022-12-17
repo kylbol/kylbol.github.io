@@ -1,5 +1,5 @@
-body {
-  padding: 0%;
+* {
+  margin: 0%;
 }
 header {
   text-align: center;
@@ -7,8 +7,11 @@ header {
 header h1 {
   font-size: 6em;
 }
-footer {
-
+main {
+  margin: 1em;
+}
+main h1, h1 ~ h2 {
+  margin: 1em;
 }
 .container {
   position: relative;
@@ -24,7 +27,6 @@ footer {
   text-align: center;
 }
 .button {
-  
   width: 30em;
   height: 30em;
 }
