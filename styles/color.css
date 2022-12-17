@@ -1,14 +1,7 @@
 body {
     background: rgb(255, 230, 150);
 }
-header {
-    background: rgb(255, 200, 100);
-    color: white;
-}
-header h1 {
-    
-}
-footer {
+header, footer {
     background: rgb(255, 200, 100);
     color: white;
 }
