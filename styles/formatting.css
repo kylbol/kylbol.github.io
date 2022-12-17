@@ -8,7 +8,20 @@ header h1 {
   font-size: 6em;
 }
 main {
-  margin: 1em;
+  display: grid;
+  grid-template-coloumns: repeat(4,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-template-areas: "a a b b" "a a b b" "c c c c";
+  margin: 1em; 
+}
+.region-one {
+  grid-area: a;
+}
+.region-two {
+  grid-area: b;
+}
+.region-three {
+  grid-area: c;
 }
 main h1, h1 ~ h2 {
   margin: 1em;
