@@ -1,0 +1,25 @@
+body {
+  padding: 0%;
+}
+header {
+  text-align: center;
+}
+header h1 {
+  font-size: 6em;
+}
+footer {
+
+}
+.container {
+  position: relative;
+  text-align: center;
+}
+.centered {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#navigation {
+  text-align: center;
+}
